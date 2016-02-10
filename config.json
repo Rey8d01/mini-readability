@@ -1,0 +1,49 @@
+[
+  {
+    "list_allow_nested_tags": [
+      "p",
+      "a",
+      "b",
+      "i",
+      "u",
+      "span",
+      "div"
+    ],
+    "content_tag": "div",
+    "content_tag_attributes": {
+      "class": "article__paragraph"
+    },
+    "paragraph_tag": "div",
+    "hosts": ["news.rambler.ru"]
+  },
+
+  {
+    "content_tag": "div",
+    "content_tag_attributes": {
+      "class": "news_body"
+    },
+    "hosts": ["regnum.ru"]
+  },
+
+  {
+    "list_allow_nested_tags": [
+      "p",
+      "a",
+      "b",
+      "i",
+      "u",
+      "span",
+      "div"
+    ],
+    "content_tag": "div",
+    "content_tag_attributes": {
+      "itemprop": "articleBody"
+    },
+    "hosts": ["ria.ru"]
+  },
+
+  {
+    "title_tag": "h3",
+    "hosts": ["www.vesti.ru"]
+  }
+]
